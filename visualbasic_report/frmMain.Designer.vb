@@ -30,6 +30,7 @@ Partial Class frmMain
         Me.txtNama = New System.Windows.Forms.TextBox()
         Me.txtAlamat = New System.Windows.Forms.TextBox()
         Me.txtPekerjaan = New System.Windows.Forms.TextBox()
+        Me.Button1 = New System.Windows.Forms.Button()
         CType(Me.DataGridView1, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.ptbFoto, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
@@ -72,7 +73,6 @@ Partial Class frmMain
         '
         Me.txtKode.Location = New System.Drawing.Point(12, 12)
         Me.txtKode.Name = "txtKode"
-        Me.txtKode.ReadOnly = True
         Me.txtKode.Size = New System.Drawing.Size(362, 20)
         Me.txtKode.TabIndex = 4
         '
@@ -97,11 +97,21 @@ Partial Class frmMain
         Me.txtPekerjaan.Size = New System.Drawing.Size(362, 20)
         Me.txtPekerjaan.TabIndex = 7
         '
+        'Button1
+        '
+        Me.Button1.Location = New System.Drawing.Point(274, 116)
+        Me.Button1.Name = "Button1"
+        Me.Button1.Size = New System.Drawing.Size(100, 23)
+        Me.Button1.TabIndex = 8
+        Me.Button1.Text = "Tampilkan"
+        Me.Button1.UseVisualStyleBackColor = True
+        '
         'frmMain
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(492, 379)
+        Me.Controls.Add(Me.Button1)
         Me.Controls.Add(Me.txtPekerjaan)
         Me.Controls.Add(Me.txtAlamat)
         Me.Controls.Add(Me.txtNama)
@@ -128,4 +138,5 @@ Partial Class frmMain
     Friend WithEvents txtNama As TextBox
     Friend WithEvents txtAlamat As TextBox
     Friend WithEvents txtPekerjaan As TextBox
+    Friend WithEvents Button1 As Button
 End Class
