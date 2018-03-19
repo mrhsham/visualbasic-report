@@ -47,7 +47,7 @@ Public Class frmMain
                 DR.Close()
             End If
         Catch ex As Exception
-            'MessageBox.Show("gak mau tampil datanya")
+            MessageBox.Show(ex.Message)
         Finally
             CONN.Close()
         End Try
@@ -61,6 +61,14 @@ Public Class frmMain
         Dim row As New DataGridViewRow
         row = DataGridView1.CurrentRow
         txtKode.Text = row.Cells("kode").Value.ToString
+        CONN.Close()
         Call TampilKembali()
+    End Sub
+
+    Private Sub btnReport_Click(sender As Object, e As EventArgs) Handles btnReport.Click
+        Dim sTitle As String
+        sTitle = txtKode.Text
+        Dim frm As New View(sTitle)
+        frm.Show()
     End Sub
 End Class

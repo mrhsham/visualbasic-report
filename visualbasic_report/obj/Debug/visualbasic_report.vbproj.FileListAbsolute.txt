@@ -21,7 +21,6 @@ C:\Users\Suganda\Documents\GitHub\sgnd\visualbasic_report\visualbasic_report\bin
 C:\Users\Suganda\Documents\GitHub\sgnd\visualbasic_report\visualbasic_report\bin\Debug\ShockwaveFlashObjects.dll
 C:\Users\Suganda\Documents\GitHub\sgnd\visualbasic_report\visualbasic_report\bin\Debug\CrystalDecisions.ReportAppServer.CommonControls.dll
 C:\Users\Suganda\Documents\GitHub\sgnd\visualbasic_report\visualbasic_report\bin\Debug\stdole.dll
-C:\Users\Suganda\Documents\GitHub\sgnd\visualbasic_report\visualbasic_report\obj\Debug\visualbasic_report.vbprojResolveAssemblyReference.cache
 C:\Users\Suganda\Documents\GitHub\sgnd\visualbasic_report\visualbasic_report\obj\Debug\visualbasic_report.frmMain.resources
 C:\Users\Suganda\Documents\GitHub\sgnd\visualbasic_report\visualbasic_report\obj\Debug\visualbasic_report.Resources.resources
 C:\Users\Suganda\Documents\GitHub\sgnd\visualbasic_report\visualbasic_report\obj\Debug\visualbasic_report.View.resources
@@ -31,3 +30,6 @@ C:\Users\Suganda\Documents\GitHub\sgnd\visualbasic_report\visualbasic_report\obj
 C:\Users\Suganda\Documents\GitHub\sgnd\visualbasic_report\visualbasic_report\obj\Debug\visualbasic_report.exe
 C:\Users\Suganda\Documents\GitHub\sgnd\visualbasic_report\visualbasic_report\obj\Debug\visualbasic_report.xml
 C:\Users\Suganda\Documents\GitHub\sgnd\visualbasic_report\visualbasic_report\obj\Debug\visualbasic_report.pdb
+C:\Users\Suganda\Documents\GitHub\sgnd\visualbasic_report\visualbasic_report\obj\Debug\visualbasic_report.vbprojResolveAssemblyReference.cache
+C:\Users\Suganda\Documents\GitHub\sgnd\visualbasic_report\visualbasic_report\bin\Debug\MySql.Data.dll
+C:\Users\Suganda\Documents\GitHub\sgnd\visualbasic_report\visualbasic_report\bin\Debug\MySql.Data.xml
